@@ -8,3 +8,8 @@ def convert(input_str):
 
 def main():
     input_str = input("please enter a string: ")
+    output_str = convert(input_str)
+    print(output_str)
+
+if __name__ == "__main__":
+    main()
