@@ -2,5 +2,5 @@
 #replacing each space with three periods
 
 input_str = input("Please enter a string: ")
-modified_str = input_str.replaces(" ","...")
+modified_str = input_str.replace(" ","...")
 print(modified_str)
