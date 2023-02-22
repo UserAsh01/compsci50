@@ -5,4 +5,4 @@ import mimetypes
 filename = input("Please enter the name of a file: ")
 
 #get file suffix and convert to lower case
-suffix = filename.spl
+suffix = filename.split(".")
