@@ -17,10 +17,10 @@ def main():
         print("It's breakfast time!")
     elif 12 <+hours < 13:
         print("It's lunch time!")
-    elif
-
-
-
+    elif 18 <= hours < 19:
+        print("It's dinner time!")
+    else:
+        pass #it's not time for a meal
 
 if __name__ == "__main__":
     main()
