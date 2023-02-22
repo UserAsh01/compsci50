@@ -14,5 +14,7 @@ elif op == "-":
     result = x - z
 elif op == "*":
     result = x * z
-    
+elif op == "/":
+    result = x / z
+
 
