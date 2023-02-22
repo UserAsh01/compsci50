@@ -9,7 +9,7 @@ suffix = filename.split(".")[-1].lower() if "." in filename else ""
 
 #determine media type based on suffix
 if suffix in ["gif", "jpg", "jpeg", "png", "pdf", "txt", "zip"]:
-    media_type = mimetypes.type_map["." + suffix]
+    media_type = mimetypes.types_map["." + suffix]
 else:
     media_type = "application/octet-stream"
 
