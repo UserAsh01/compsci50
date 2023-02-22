@@ -17,4 +17,7 @@ elif op == "*":
 elif op == "/":
     result = x / z
 
+#output foramtted to one decimal place
+print("{:.1f}".format(result))
+
 
