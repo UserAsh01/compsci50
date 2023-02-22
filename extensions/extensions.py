@@ -14,4 +14,4 @@ else:
     media_type = "application/octet-stream"
 
 #output media type
-print("Media type:", media_type)
+print(media_type)
